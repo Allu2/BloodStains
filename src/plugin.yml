@@ -1,0 +1,9 @@
+name: BloodStains
+main: bloodstains.BloodStains
+version: 0.1
+commands:
+    forgive:
+        description: Forgives bloodstained player turning nick back to normal.
+        usage: /forgive playernick
+        permission: bloodstains.forgive
+        permission-message: You don't have bloodstains.forgive
